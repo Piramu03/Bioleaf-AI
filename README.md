@@ -24,14 +24,15 @@ This project uses a pre-trained MobileNetV2 model, trained on the PlantVillage d
 
 ---
 ## 1.Install Python Dependencies
-   pip install -r requirements.txt
----
-##2.Run the Application
-   streamlit run app.py
+pip install -r requirements.txt
+
+## 2.Run the Application
+streamlit run app.py
+
 ---
 json
 
-###📁 Uploading Images
+## 📁 Uploading Images
 There are two ways to provide leaf images to the system:
 
 Option 1: Upload Images
@@ -53,8 +54,8 @@ Predict the disease
 Show confidence score
 
 Provide recommendations
----
-##🌿 Disease Information
+
+## 🌿 Disease Information
 After the prediction, the app displays detailed info:
 
 Disease Name – e.g., Tomato Leaf Curl Virus
@@ -68,9 +69,9 @@ Treatment – e.g., Use insecticides, remove infected plants
 Prevention – e.g., Use resistant varieties, rotate crops
 
 Recommended Products – e.g., Neem oil, Biocontrol agents
----
 
-##📄 License
+
+## 📄 License
 This project is licensed under the MIT License.
 You may use, modify, and distribute it for academic, research, or educational purposes.
 
